@@ -76,7 +76,7 @@ public class Main {
                     case 3 -> System.out.println(personService.getAll());
                     case 4 -> {
                         System.out.println("Enter a name: ");
-                        String name = scanner.nextLine();
+                        String name = new Scanner(System.in).nextLine();
                         System.out.println(personService.findByName(name, people));
                     }
                     case 5 -> {
@@ -84,7 +84,13 @@ public class Main {
                         String name1 = scanner.nextLine();
                         System.out.println(personService.findByCarName(name1, people));
                     }
-                    case 6 -> System.out.println("");
+                    case 6 -> {
+                        System.out.println("Enter a car name: ");
+                        String NameC = new Scanner(System.in).nextLine();
+                        String nameC = new Scanner(System.in).nextLine();
+                        System.out.println(personService.payCars(NameC, people, nameC,cars));
+                    }
+
                     case 7 -> System.out.println(personService.sortPersonDateOfBirth(people));
                     case 8 -> System.out.println(personService.sortPersonName(people));
                     case 9 -> System.out.println(personService.sortGender(people));

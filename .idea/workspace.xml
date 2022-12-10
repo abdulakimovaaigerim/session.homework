@@ -4,23 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74763efa-0863-4446-a261-a13fe88e429c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session.homework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8/classes/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8/classes/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8/enums/Colour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8/enums/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8/enums/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8/service/CarService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8/service/CarServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8/service/PersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8/service/PersonServiceImpl.java" afterDir="false" />
+    <list default="true" id="74763efa-0863-4446-a261-a13fe88e429c" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java8/service/PersonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java8/service/PersonServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +69,14 @@
       <option name="presentableId" value="Default" />
       <updated>1670389462396</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1670515867799</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670515867799</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,5 +89,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>

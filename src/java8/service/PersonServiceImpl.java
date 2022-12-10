@@ -46,8 +46,9 @@ public class PersonServiceImpl implements PersonService {
     }
     @Override
     public List<Person> findByCarName(String name, List<Person> people) {
+
        ArrayList<Person> perCarList = new ArrayList<>();
-       for (Person person:people){
+       for (Person person:this.people){
            for (Car car: person.getCars()){
                if(car.getName().equals(name)){
                    perCarList.add(person);
@@ -66,6 +67,7 @@ public class PersonServiceImpl implements PersonService {
                             ArrayList<Car> list = new ArrayList<>(person1.getCars());
                             list.add(car);
                             person1.setCars(list);
+                            cars.remove(car);
                         }
                     }
                 }
